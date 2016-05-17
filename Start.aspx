@@ -1,16 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Start.aspx.cs" Inherits="Start" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Start.aspx.cs" Inherits="Start" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <h1>To jest strona główna</h1>
+    <body>Tu będzie się dziać magia</body>
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Start</title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    Siabada coś tam jeszcze dodałem
-    </div>
-    </form>
-</body>
-</html>
+
